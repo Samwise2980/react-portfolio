@@ -5,9 +5,51 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #212121;
+  color: #ffffff;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+nav {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #000000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.205);
+}
+
+#main-container {
+  background-color: #303030;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+hr {
+  border-color: rgba(255, 255, 255, 0.541);
+}
+
+#profile-pic {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.portfolio{
+  border-radius: 10px;
+  padding: 10px 0 10px 0;
+  background-color: #424242;
+}
+
+.portfolio-image:hover {
+  opacity: 80%;
+}
+
+
+@media (min-width: 400px) {
+  #profile-pic {
+    max-width: 250px;
+    height: auto;
+  }
 }
