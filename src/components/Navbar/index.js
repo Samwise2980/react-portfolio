@@ -28,17 +28,17 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
             <span className="nav-item nav-link">
-              <Link to="/home" className={navLinkClassName("/home")}>
+              <Link to="/react-portfolio/home" className={navLinkClassName("/react-portfolio/home")}>
                 About Me
               </Link>
             </span>
             <span className="nav-item nav-link">
-              <Link to="/portfolio" className={navLinkClassName("/portfolio")}>
+              <Link to="/react-portfolio/portfolio" className={navLinkClassName("/react-portfolio/portfolio")}>
                 Portfolio
               </Link>
             </span>
             <span className="nav-item nav-link">
-              <Link to="/contact" className={navLinkClassName("/contact")}>
+              <Link to="/react-portfolio/contact" className={navLinkClassName("/react-portfolio//contact")}>
                 Contact
               </Link>
             </span>
