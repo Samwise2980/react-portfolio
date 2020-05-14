@@ -1,31 +1,24 @@
 # React Profile Page
 
-- URL: 
+- URL: https://samwise2980.github.io/react-portfolio/
 
-- GitHub Repo: 
+- GitHub Repo: https://github.com/Samwise2980/react-portfolio/tree/master
 
 
 
 ## Description
 
-
+My Github portfolio made with React.
 
 ## Table of Contents
 - [Features](#features)
-- [Usage](#usage)
-- [Tests](#installation)
-- [Questions](#questions)
 
 
 ## Features
 
-
-
-## Usage
-
-
-
-## Installation
+* About Me
+* Portfolio
+* Contact
 
 
 ## Questions
