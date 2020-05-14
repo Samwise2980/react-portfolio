@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <nav className="navbar navbar-expand-md navbar-dark">
-      <Link className="navbar-brand mb-0 h1" to="/">
+      <Link className="navbar-brand mb-0 h1" to="/react-portfolio/">
         Samuel Foster
       </Link>
       <div>
