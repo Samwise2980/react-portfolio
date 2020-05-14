@@ -9,28 +9,41 @@ function Navbar() {
     path === location.pathname ? "nav-link active" : "nav-link";
 
   return (
-    <nav className="navbar navbar-expand-sm navbar-light bg-light">
-      <Link className="navbar-brand" to="/">
+    <nav className="navbar navbar-expand-md navbar-dark">
+      <Link className="navbar-brand mb-0 h1" to="/">
         Samuel Foster
       </Link>
       <div>
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <Link to="/home" className={navLinkClassName("/home")}>
-              Home
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/portfolio" className={navLinkClassName("/portfolio")}>
-              Portfolio
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/contact" className={navLinkClassName("/contact")}>
-              Contact
-            </Link>
-          </li>
-        </ul>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div className="navbar-nav">
+            <span className="nav-item nav-link">
+              <Link to="/home" className={navLinkClassName("/home")}>
+                About Me
+              </Link>
+            </span>
+            <span className="nav-item nav-link">
+              <Link to="/portfolio" className={navLinkClassName("/portfolio")}>
+                Portfolio
+              </Link>
+            </span>
+            <span className="nav-item nav-link">
+              <Link to="/contact" className={navLinkClassName("/contact")}>
+                Contact
+              </Link>
+            </span>
+          </div>
+        </div>
       </div>
     </nav>
   );

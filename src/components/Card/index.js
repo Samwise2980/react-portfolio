@@ -1,5 +1,8 @@
 import React from "react";
 import "./style.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+
 
 function Card({ image, alt, project_link, github_link }) {
   return (
@@ -13,7 +16,7 @@ function Card({ image, alt, project_link, github_link }) {
       </a>
       <div className="card-body text-center">
         <a href={github_link} target="_blank" rel="noopener noreferrer">
-          <i class="fab fa-github fa-3x portfolio-link"></i>
+        <FontAwesomeIcon icon={faGithub}  size="3x" />
         </a>
       </div>
     </div>

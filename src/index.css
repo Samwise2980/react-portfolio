@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #212121;
+  background-color: #440D0F;
+  /* background-color: #212121; */
   color: #ffffff;
 }
 
@@ -16,12 +17,13 @@ code {
 
 nav {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-  background-color: #000000;
+  /* background-color: #000000; */
   border-bottom: 1px solid rgba(255, 255, 255, 0.205);
 }
 
 #main-container {
-  background-color: #303030;
+  background-color: #603A40;
+  /* background-color: #303030; */
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 

@@ -5,7 +5,7 @@ import Home from "./pages/Home"
 import Portfolio from "./pages/Portfolio"
 import Contact from "./pages/Contact"
 import Nav from "./components/Navbar"
-
+import Footer from "./components/Footer"
 
 
 const App = () => {
@@ -25,6 +25,7 @@ const App = () => {
             <Contact />
           </Route>
         </Switch>
+        <Footer/>
       </div>
     </Router>
   );
