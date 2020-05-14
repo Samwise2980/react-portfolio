@@ -15,20 +15,17 @@ const App = () => {
       <div>
         <Nav />
         <Switch>
-          <Route exact path="/home">
+          <Route exact path="react-portfolio/home">
             <Home />
           </Route>
-          <Route exact path="/">
+          <Route exact path="react-portfolio/">
             <Home />
           </Route>
-          <Route exact path="/portfolio">
+          <Route exact path="react-portfolio/portfolio">
             <Portfolio />
           </Route>
-          <Route exact path="/contact">
+          <Route exact path="react-portfolio/contact">
             <Contact />
-          </Route>
-          <Route path="*">
-            <Home />
           </Route>
         </Switch>
         <Footer/>
