@@ -9,7 +9,7 @@ import Footer from "./components/Footer"
 
 
 const App = () => {
-  document.title = "User Directory";
+  document.title = "Samuel Foster";
   return (
     <Router>
       <div>
