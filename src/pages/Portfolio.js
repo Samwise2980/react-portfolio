@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "../components/Card";
-import Wrapper from "../components/Wrapper"
+import Wrapper from "../components/Wrapper";
 export default function () {
   return (
     <Wrapper>
@@ -23,16 +23,16 @@ export default function () {
           github_link="https://github.com/SeeShell/whats-up-there"
         />
         <Card
+          image="assets/images/gamersaurus.png"
+          alt="Gamersaurus Mobile Page"
+          project_link="https://gamersaurus.herokuapp.com/"
+          github_link="https://github.com/amboffman/gamersaurus"
+        />
+        <Card
           image="assets/images/moodies-mobile.png"
           alt="Moodies Mobile Page"
           project_link="https://sylhuynh.github.io/moodies/index.html"
           github_link="https://github.com/sylhuynh/moodies"
-        />
-        <Card
-          image="assets/images/coding-quiz-mobile.png"
-          alt="Coding Quiz Mobile Page"
-          project_link="https://samwise2980.github.io/coding-quiz/"
-          github_link="https://github.com/Samwise2980/coding-quiz"
         />
       </div>
       <div className="row d-flex justify-content-center">
@@ -43,16 +43,16 @@ export default function () {
           github_link="https://github.com/Samwise2980/weather-dashboard"
         />
         <Card
-          image="assets/images/burgers.png"
-          alt="Burger Devourer Web Page"
-          project_link="https://peaceful-mesa-75820.herokuapp.com/"
-          github_link="https://github.com/Samwise2980/burger"
-        />
-        <Card
           image="assets/images/note-taker.png"
           alt="Burger Devourer Web Page"
           project_link="https://sheltered-ocean-89467.herokuapp.com/"
           github_link="https://github.com/Samwise2980/note-taker"
+        />
+        <Card
+          image="assets/images/coding-quiz-mobile.png"
+          alt="Coding Quiz Mobile Page"
+          project_link="https://samwise2980.github.io/coding-quiz/"
+          github_link="https://github.com/Samwise2980/coding-quiz"
         />
       </div>
     </Wrapper>
